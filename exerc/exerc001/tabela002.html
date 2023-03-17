@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgba(128, 128, 128, 0.247);
+      }
+      table {
+        border-collapse: collapse;
+        width: 500px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+      thead,
+      tfoot {
+        background-color: aqua;
+        color: white;
+      }
+      td.num {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Posição</th>
+          <th>Unidade Federativa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>São paulo</td>
+          <td class="num">50000</td>
+        </tr>
+        <tr>
+          <td>de janeiro</td>
+          <td class="num">80000</td>
+        </tr>
+        <tr>
+          <td>Minas gerais</td>
+          <td class="num">30000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total de Habitantes</td>
+          <td class="num">564000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
