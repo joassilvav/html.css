@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&family=Lora&family=Mukta:wght@200&family=Smokum&family=Sriracha&family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&family=Lora&family=Mukta:wght@200&family=Passion+One&family=Smokum&family=Sriracha&family=Tilt+Warp&display=swap");
+/*section tem valor semantico que relaciona algo(texto, img e etc)*/
+
+:root {
+  --font1: Verdana, Geneva, tahoma, sans-serif;
+  --font2: "Sriracha", cursive;
+  --font3: "Passion One", cursive;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: darkgrey;
+}
+header {
+  background-color: black;
+  text-align: center;
+}
+header > h1 {
+  color: white;
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: var(--font3);
+  font-size: 10vh;
+}
+header > p {
+  color: white;
+  padding-bottom: 50px;
+}
+
+section {
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  padding-left: 30px;
+  line-height: 3em;
+  font-family: var(--font2);
+  font-size: 1vw;
+}
+
+section.normal {
+  background-color: white;
+}
+
+section.imag {
+  background-color: rgba(0, 0, 0, 0.116);
+  background-attachment: fixed;
+}
+
+section > p {
+  padding-bottom: 2em;
+  font-size: 2vw;
+}
+section.imag > p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.226);
+  width: 400px;
+}
+
+section#img1 {
+  background-image: url("./cordel/imagens/background001.jpg");
+  background-position: right center;
+  background-size: cover;
+}
+
+section#img2 {
+  background-image: url("./cordel/imagens/background002.jpg");
+  background-position: right center;
+  background-size: cover;
+}
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+footer > p {
+  color: white;
+  padding: 8px;
+}

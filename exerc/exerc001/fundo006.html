@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>centralização vertical da imag</title>
+    <style>
+      #container {
+        position: relative;
+        background-color: rgb(235, 6, 243);
+        height: 500px;
+        padding: 10px;
+      }
+      /* margin é alinhamento horizontal*/
+      #conteudo {
+        position: absolute;
+        background-color: rgb(243, 219, 6);
+        width: 400px;
+        height: 200px;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="container">
+      <article id="conteudo"></article>
+    </section>
+  </body>
+</html>
